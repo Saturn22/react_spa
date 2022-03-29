@@ -19,13 +19,13 @@ class Home extends Component {
 
                 <div class="row">
                     <div class="column">
-                        <img src={img1} alt="image" width="400" height="333"/>
+                        <img src={img1} alt="something" width="400" height="333"/>
                     </div>
                     <div className="column">
-                        <img src={img2} alt="image" width="400" height="333"/>
+                        <img src={img2} alt="something" width="400" height="333"/>
                     </div>
                     <div className="column">
-                        <img src={img3} alt="image" width="400" height="333"/>
+                        <img src={img3} alt="something" width="400" height="333"/>
                     </div>
                 </div>
 
