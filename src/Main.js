@@ -6,7 +6,7 @@ import {
     HashRouter
 } from "react-router-dom";
 import Home from "./Home";
-import Stuff from "./Stuff";
+import About from "./About";
 import Contact from "./Contact";
 
 class Main extends Component {
@@ -17,13 +17,13 @@ class Main extends Component {
                     <h1>Simple SPA</h1>
                     <ul className="header">
                         <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/stuff">Stuff</NavLink></li>
+                        <li><NavLink to="/about">About</NavLink></li>
                         <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                     <div className="content">
                         <Routes>
                             <Route exact path="/" element={<Home />}/>
-                            <Route path="/stuff" element={<Stuff />}/>
+                            <Route path="/about" element={<About />}/>
                             <Route path="/contact" element={<Contact />}/>
                         </Routes>
                     </div>
